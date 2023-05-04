@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    width: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides{
+    width: 1000px;
+    display: flex;
+    transition: all ease-in-out 3ms;
+}
+
+.slide{
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttons{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button{
+    cursor: pointer;
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

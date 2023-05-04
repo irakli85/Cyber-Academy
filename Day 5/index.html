@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="rr">
+        <nav>
+            <ul>
+                <li>About us</li>
+                <li>Registration</li>
+                <li>Program</li>
+                <li>Photo and Video</li>
+                <li>Staff</li>
+                <li>Contacts</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <img class="kidstory" src="./assets/Kidsstory.png" alt="ss">
+        <div class="slider">
+            <img id="img" src="./assets/img1.png" alt="first">
+            <div class="btn">
+                <button class="btnLeft" onclick="back()">
+                    <img class="left" src="./assets/arrow.png" alt="ss">
+                </button>
+                <button class="btnRight" onclick="next()">
+                    <img class="right" src="./assets/arrow.png" alt="ss">
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
